@@ -101,10 +101,9 @@ padding-left: 5px;
 
 
 .search {
-width: 238px;
+width: 100%;
 height: 49px;
 display: flex;
-align-items: space-between ;
         
 border: 1px solid #F2F2F2;
 border-radius: 0px;
@@ -149,7 +148,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 height: 49px; 
-width: 132px;      
+width: 60%; 
+min-width: 49px;     
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
@@ -194,11 +194,6 @@ position: relative;
   display: flex;
 }   
 
-.recherche [type='submit']:hover {
-background-color: orange;
-border: 1px solid orange;
-transition: background-color 1s;
-}
 .section-searchbar{
 padding-left: 5px;
 }
@@ -247,7 +242,7 @@ font-weight: 700;
 font-size: 17px;
 line-height: 20px;
 color: #000000;
-padding: 15px;
+padding: 14px;
 }
 .pillules{
 width: 914px;
@@ -272,6 +267,7 @@ border-radius: 25px;
 }
 
 .information{
+  width: 100%;
   position: relative;
   
   display: inline-flex;
@@ -336,7 +332,7 @@ font-weight: 700;
 font-size: 22px;
 line-height: 26px;
 margin-left: 0px;
-margin-bottom: 30px;
+margin-bottom: 26px;
 margin-top: 0px;
 margin-right: 0px;
 }
@@ -475,7 +471,7 @@ font-weight: 700;
 font-size: 22px;
 line-height: 26px;
 margin: 0px; 
-margin-bottom: 30px;
+margin-bottom: 26px;
 }
 
 .logochart{
@@ -718,12 +714,12 @@ margin: 0px;
 .populaire{
   width: 100%; 
   flex-direction: column;
-  padding: 42px 15px 23px 15px;
+  padding: 34px 40px 48px 40px;
  
 }
 .populaire-fiches{
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   gap: 23px;
 }
 
@@ -836,6 +832,7 @@ width: 100%;
     gap: 30px;
   }
   .filtre{
+    width: 100%;
    height: 150px;
    display: flex;
    flex-direction: column;
@@ -913,7 +910,7 @@ width: 100%;
 
 .fiche-photodescription{
  width: 100%;
-  min-width: 300px;
+  min-width: 0%;
   box-shadow: 1px 1px 15px 3px #E8E8E8;
 }
 .hebergementlocal > h2{
